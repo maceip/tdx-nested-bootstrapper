@@ -55,7 +55,7 @@ start ish
 
 convert -- its slow 
 ```
-/run.sh -i ubuntu-24.04-server-cloudimg-amd64.img -t 10
+sudo ./run.sh -i ubuntu-24.04-server-cloudimg-amd64.img -t 10 -s /var/run/libvirt/libvirt-sock
 ```
 
 boot the guest
